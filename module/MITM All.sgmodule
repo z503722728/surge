@@ -3,4 +3,4 @@
 //对所有端口为 433 的主机名执行 MitM，除了 Apple 和其他不能被解密的站点，您仍然需要配置 CA 证书并启用 MitM 开关。
 
 [MITM]
-hostname = -*.apple.com, -*.icloud.com, -*.mzstatic.com, -*.crashlytics.com, -*.facebook.com,-*.fbcdn.net,-*.cdninstagram.com, -*.instagram.com, -*.spotify.com,  -*.gladns.com, -119.147.6.53, *
+hostname = -*.apple.com, -*.icloud.com, -*.mzstatic.com, -*.crashlytics.com, -*.facebook.com, -*.fbcdn.net, -*.cdninstagram.com, -*.instagram.com, -*.spotify.com, -*.gladns.com, -119.147.6.53, *
